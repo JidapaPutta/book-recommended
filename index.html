@@ -11,141 +11,112 @@
     <link rel="stylesheet" href="CSS/style.css">
   </head>
   <body>
-    <div class="container">
+    
 
 	  <!-- Navigation Bar -->
-      <div class="row sticky-top mitr-regular">
-        <nav class="navbar navbar-expand-lg navbg">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" style="width: 60px; height: 60px;"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
+    <div class="row sticky-top">
+      <nav class="navbar navbar-expand-lg navbg">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="index.html"><img src="images/logo.png" alt="Logo" style="width: 60px; height: 60px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Books</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          More
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Popular</a></li>
-                          <li><a class="dropdown-item" href="#">Recommendations</a></li>
-                          <li><a class="dropdown-item" href="#">About Us</a></li>
-                        </ul>
-                      </li>
-                    </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-primary" type="submit">Search</button>
-                    </form>
-                  </div>
-                </div>
-            </nav>
-        
-		  </div>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ored" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Book Details
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="novel.html">Novel</a></li>
+                  <li><a class="dropdown-item" href="#">Manhua</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link white" aria-current="page" href="author.html">Author</a>
+            </li>
+
+              <li class="nav-item">
+                  <a class="nav-link white" href="#">About Us</a>
+              </li>
+          </ul>
+
+          <form class="d-flex me-5" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary" type="submit">Search</button>
+          </form>
+        </div>
+        </div>
+      </nav>
+
+    </div>
     <!-- End Navigation Bar -->
 
-  
-	  <!-- Banner-->	
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="images/bn_bookday.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="images/bn_charity.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="images/bn_monthly.png" class="d-block w-100" alt="...">
+    <div class="container">
+	
+	  <!-- Main Content -->
+    <div class="container content">
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <img src="images/whatis.png" class="img-fluid" alt="">  
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-	  <!-- End Banner -->
 
-	  <div class="row mt-4 font1"><h1>What to read next?</h1></div>
-	
-	  <div class="row mt-2">
-		  <div class="col-lg-6">
-        <img src="images/MDZS1.jpg" class="img-fluid rounded mx-auto d-block">
-		  </div>
-		  <div class="col-lg-5">
-			  <h3 class="mitr-semibold">ปรมาจารย์ลัทธิมาร</h3> 
-			  <p class="mitr-regular pt-20 pb-20">
-        <strong>ปรมาจารย์ลัทธิมาร หรือ Mo Dao Zu Shi</strong> หนังสือเล่าเรื่องราวของ <strong>เว่ยอู๋เซี่ยน</strong> ผู้ที่ถูกใส่ร้ายว่าเป็นมารร้ายและถูกลอบสังหาร 
-        แต่เขากลับฟื้นขึ้นมาในร่างของโม่เสวียนอวี่และร่วมมือกับ <strong>หลานวั่งจี</strong> เพื่อไขปริศนาต่าง ๆ และปราบมารที่คุกคามยุทธภพ
-          โดยรวมแล้ว "ปรมาจารย์ลัทธิมาร" เป็นนิยายที่ไม่ได้มีเพียงแค่เรื่องราวการผจญภัย แต่ยังสะท้อนถึงความซับซ้อนของมนุษย์ ทำให้เป็นนิยายที่ไม่ควรพลาดอย่างยิ่ง
-			  </p>
-        <h5 class="mitr-semibold">จุดเด่น</h5>
-        <p class="mitr-regular">
-          <ul>
-            <li>
-               <p><strong>การพัฒนาตัวละคร</strong>: ตัวละครในเรื่องมีการพัฒนาและเติบโตอย่างชัดเจน ทำให้ผู้อ่านรู้สึกผูกพันและเข้าใจในความรู้สึกของพวกเขา<p>
-            </li>
-            
-            <li>
-                <p><strong>เนื้อเรื่องที่ซับซ้อน</strong>: เรื่องราวเต็มไปด้วยปริศนาและการหักมุมที่น่าติดตาม ทำให้ผู้อ่านไม่สามารถวางหนังสือลงได้</p>
-             </li>
-             
-            <li>
-                <p><strong>การเขียนที่ละเอียดอ่อน</strong>: โม่เซียงถงซิ่วมีความสามารถในการเขียนที่ทำให้ผู้อ่านสามารถจินตนาการถึงโลกในหนังสือได้อย่างชัดเจน</p>
-            </li>
-        </ul>  
-        </p>
-		  </div>
-		</div>
-
-    <div class="row mt-5">
-		  <div class="col-md-6">
-        <img src="images/RBWB.jpg" class="img-fluid rounded mx-auto d-block">
-		  </div>
-		  <div class="col-md-5">
-			  <h3 class="mitr-semibold">Red, White & Royal Blue</h3> 
-			  <p class="mitr-regular mt-3">
-          <strong>"Red, White & Royal Blue"</strong> เป็นนิยายที่เล่าเรื่องราวความรักระหว่างลูกชายประธานาธิบดีสหรัฐฯกับเจ้าชายอังกฤษ
-          ตัวนิยายมีเสน่ห์จากการผสมผสานระหว่างความโรแมนติกและความตึงเครียดทางการเมือง 
-          โดยมีตัวละครหลักคือ <strong>Alex Claremont-Diaz</strong> ลูกชายประธานาธิบดีและ<strong>เจ้าชายเฮนรี</strong> ซึ่งเริ่มความสัมพันธ์ด้วยความเกลียดชังและพัฒนาไปสู่ความรักที่ไม่อาจปฏิเสธได้ 
-          นี่คือนิยายที่จะทำให้ทุกท่านได้ร่วมเดินทางสำรวจและเรียนรู้ถึงความรักของทั้งคู่ที่ล้อมรอบด้วยปัญหาทางการเมือง 
+        <div class="row mt-4">
+        <div class="col-md-6">
+          <img src="images/MDZS1.jpg" alt="Mo Dao Zu Shi Book Cover" class="img-fluid book-image rounded mx-auto d-block">
           
-			  </p>
-        <h5 class="mitr-semibold">จุดเด่น</h5>
-        <p class="mitr-regular">
+        </div>
+        
+        <div class="col-md-6">
+          <h3>ปรมาจารย์ลัทธิมาร</h3>
+          <p>เพิ่มข้อความในส่วนเนื้อหาเล็กน้อยเพิ่มข้อความในส่วนเนื้อหาเล็กน้อยเพิ่มข้อความในส่วนเนื้อหาเล็กน้อยเพิ่มเติม</p>
+          <p><strong>Author:</strong> ข้อความ</p>
+          <p><strong>Author:</strong> ข้อความ</p>
+
           <ul>
-            <li>
-               <p><strong>การพัฒนาตัวละคร</strong>: ตัวละครในเรื่องมีการพัฒนาและเติบโตอย่างชัดเจน ทำให้ผู้อ่านรู้สึกผูกพันและเข้าใจในความรู้สึกของพวกเขา<p>
-            </li>
-            
-            <li>
-                <p><strong>เนื้อเรื่องที่น่าติดตาม</strong>: เรื่องราวเต็มไปด้วยความรักและการหักมุมที่น่าติดตาม ทำให้ผู้อ่านไม่สามารถวางหนังสือลงได้</p>
-             </li>
-             
-            <li>
-                <p><strong>การเขียนที่ละเอียดอ่อน</strong>: Casey McQuiston มีความสามารถในการเขียนที่ทำให้ผู้อ่านสามารถจินตนาการถึงโลกในหนังสือได้อย่างชัดเจน</p>
-            </li>
-        </ul>  
-        </p>
-		  </div>
-		</div>
+              <li>ข้อความในส่วนข้อความข้อความข้อความ</li>
+              <li>ข้อความในส่วนข้อความข้อความข้อความ</li>
+              <li>ข้อความในส่วนข้อความข้อความข้อความ</li>
+          </ul>
+
+          <button class="btn btn-custom btn-novel ms-5">Novel</button>
+          <button class="btn btn-custom btn-manhua ms-5">Manhua</button>
+        </div>
+    </div>
 
      <br>
      <div class="row font1">
-      <figure class="text-center"><h2>Menu</h2></figure>
+      <figure><h2>NEWS</h2></figure>
     </div>
+
+  <!-- Banner-->	
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="images/bn1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images/bn2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/bn3.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+  <!-- End Banner -->
 
     <br>
     <footer class="container-fluid">
