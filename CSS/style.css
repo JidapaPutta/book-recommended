@@ -33,6 +33,17 @@ body{
   font-size: 1.2rem;
 }
 
+.fontsize {
+font-size: 1.1rem;
+}
+
+.fontsize2 {
+  font-size: 1.3rem;
+  }
+
+.fontsize3 {
+    font-size: 1.5rem;
+    }
 
 .mitr-semibold {
     font-family: "Mitr", sans-serif;
@@ -46,11 +57,36 @@ body{
     font-style: normal;
   }
   
+.link {
+    color: rgb(95, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.link2 {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
 
 .mitr-regular {
     font-family: "Mitr", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.book-section {
+  margin-bottom: 40px;
+}
+
+.book-section img {
+  width: 100%;
+  height: auto;
+}
+
+.book-title {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 
