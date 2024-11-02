@@ -51,20 +51,30 @@ font-size: 1.1rem;
     font-style: normal;
   }
 
+.sarabun-regular {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 .font1 {
     font-family: "Mirza", serif;
     font-weight: 400;
     font-style: normal;
   }
+
+  .black {
+    color: black;
+  }
   
 .link {
-    color: rgb(95, 0, 0);
+    color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: none;
   }
 
 .link2 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
   }
@@ -87,6 +97,13 @@ font-size: 1.1rem;
 .book-title {
   font-size: 2rem;
   font-weight: bold;
+}
+
+.accordion {
+  --bs-accordion-btn-bg: #3e3e3e;
+  --bs-accordion-active-bg: #fe4545;
+  --bs-accordion-active-color: white;
+  --bs-accordion-btn-focus-box-shadow: none;
 }
 
 
